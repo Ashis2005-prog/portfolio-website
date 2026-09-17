@@ -9,12 +9,14 @@ import {
   FaGithub,
   FaJava,
   FaCuttlefish,
+  FaPython,
 } from "react-icons/fa";
 import { SiMongodb, SiMysql, SiExpress, SiLeetcode } from "react-icons/si";
 
 const skills = [
   { name: "C++", icon: FaCuttlefish, color: "#4b5563" },
   { name: "Java", icon: FaJava, color: "#f97316" },
+  { name: "Python", icon: FaPython, color: "#3776ab" },
   { name: "HTML", icon: FaHtml5, color: "#f97316" },
   { name: "CSS", icon: FaCss3Alt, color: "#3b82f6" },
   { name: "JavaScript", icon: FaJsSquare, color: "#facc15" },
