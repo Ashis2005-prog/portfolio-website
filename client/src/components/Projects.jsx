@@ -3,6 +3,15 @@ import { FaGithub, FaExternalLinkAlt, FaProjectDiagram } from "react-icons/fa";
 
 const demoProjects = [
   {
+    title: "PrepIQ - AI Interview Preparation Platform",
+    description:
+      "A full-stack interview prep platform with AI-generated practice tests, mock AI interviews, and progress tracking. Built with the MERN stack and integrated with Google Gemini for dynamic question generation and evaluation.",
+    techStack: ["MongoDB", "Express", "React", "Node.js", "JWT Auth", "Gemini API"],
+    githubUrl: "https://github.com/Ashis2005-prog/interview_preparation_platform",
+    liveUrl: "https://prepiq-1.netlify.app/",
+    // featured: true,
+  },
+  {
     title: "JourneyNest - Travel Booking App",
     description:
       "A full-stack travel booking application built with the MERN stack. Features property listings with advanced filtering, user authentication, and booking management.",
@@ -18,7 +27,7 @@ const demoProjects = [
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     githubUrl: "https://github.com/Ashis2005-prog",
     liveUrl: "https://verdant-macaron-2f7152.netlify.app/",
-    // featured: true,
+    // featured: false,
   },
   {
     title: "DSA Solutions",
