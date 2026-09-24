@@ -12,6 +12,15 @@ const demoProjects = [
     // featured: true,
   },
   {
+    title: "Movie Recommender System",
+    description:
+      "A content-based movie recommendation web app that suggests similar movies using cosine similarity on genres, keywords, cast, crew and overview. Built with Python and scikit-learn, with movie posters fetched from the TMDB API and an interactive Streamlit interface.",
+    techStack: ["Python", "Scikit-learn", "Pandas", "Streamlit", "Pickle"],
+    githubUrl: "https://github.com/Ashis2005-prog/movie_recommended_system",
+    liveUrl: "https://movierecommendedsystem-a7aruny7sdbrhckm9eefxb.streamlit.app/",
+    // featured: true,
+  },
+  {
     title: "JourneyNest - Travel Booking App",
     description:
       "A full-stack travel booking application built with the MERN stack. Features property listings with advanced filtering, user authentication, and booking management.",
